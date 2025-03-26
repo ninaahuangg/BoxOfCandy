@@ -20,8 +20,9 @@ public class Main {
         box[0][4] = new Candy("orange");
         BoxOfCandy b = new BoxOfCandy(box);
         System.out.println(b.removeNextByFlavor("cherry"));
+        System.out.println(b.removeNextByFlavor("lime"));
+        System.out.println(b.removeNextByFlavor("grape"));
         System.out.println(b);
-
 
     }
 }
